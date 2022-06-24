@@ -5,7 +5,7 @@ html, body {
 
 .hero{
     text-align: center;
-    color: white;    
+    color: #EEF0F2;    
 }
 
 .background{
@@ -41,13 +41,13 @@ html, body {
     width: 350px;
     margin-right: auto;
     margin-left: auto;
-    color: white;
+    color: #EEF0F2;
 }
 
 #about-txt{
     border: 5px #30343F solid;
     background-color: #D6D6FF;
-    color: black;
+    color: #141414;
     margin: 20px 30px 0px 30px;
     border-radius: 7px;
     width: 1400px;
@@ -90,7 +90,7 @@ html, body {
     width: 500px;
     background-color: #30343F;
     border-radius: 7px;
-    color: white;
+    color: #EEF0F2;
 }
 
 #onepiece-img{
@@ -108,7 +108,7 @@ html, body {
     width: 500px;
     background-color: #30343F;
     border-radius: 7px;
-    color: white;
+    color: #EEF0F2;
 }
 
 #games-img{
@@ -126,7 +126,7 @@ html, body {
     width: 500px;
     background-color: #30343F;
     border-radius: 7px;
-    color: white;
+    color: #EEF0F2;
 }
 
 #code-img{
