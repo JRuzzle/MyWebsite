@@ -41,6 +41,7 @@ html, body {
     width: 350px;
     margin-right: auto;
     margin-left: auto;
+    color: white;
 }
 
 #about-txt{
@@ -49,7 +50,7 @@ html, body {
     color: black;
     margin: 20px 30px 0px 30px;
     border-radius: 7px;
-    width: 600px;
+    width: 1400px;
     margin-right: auto;
     margin-left: auto;
     font-size: 25px;
@@ -71,7 +72,70 @@ html, body {
     text-align: center;
     margin: 0px;
     border-top: 1px solid #D6D6FF;
+    padding: 10px 0px 100px 0px;
 }
 
-#other{
-    
+.interests{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 100px auto;
+}
+
+.onepiece{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #30343F;
+    width: 500px;
+    background-color: #30343F;
+    border-radius: 7px;
+    color: white;
+}
+
+#onepiece-img{
+    border-radius: 50%;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.games{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #30343F;
+    width: 500px;
+    background-color: #30343F;
+    border-radius: 7px;
+    color: white;
+}
+
+#games-img{
+    border-radius: 50%;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.codeing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #30343F;
+    width: 500px;
+    background-color: #30343F;
+    border-radius: 7px;
+    color: white;
+}
+
+#code-img{
+    border-radius: 50%;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.interests{
+    display: flex;
+    justify-content: space-around;
+}
