@@ -47,8 +47,8 @@ html, body {
 
 #about-txt{
     border: 5px #30343F solid;
-    background-color: #D6D6FF;
-    color: black;
+    background-color: #30343F;
+    color: #ffffff;
     margin: 20px 30px 0px 30px;
     border-radius: 7px;
     width: 1400px;
