@@ -5,7 +5,7 @@ html, body {
 
 .hero{
     text-align: center;
-    color: #EEF0F2;    
+    color: white;    
 }
 
 .background{
@@ -23,9 +23,10 @@ html, body {
     background-color: #273469;
     margin: 30px 150px 30px 150px;
     border-radius: 10px;
-    width: 400px;
+    width: 800px;
     margin-right: auto;
-    margin-left: auto   
+    margin-left: auto;
+    font-size: 50px;
 }
 
 .about-me{
@@ -41,22 +42,23 @@ html, body {
     width: 350px;
     margin-right: auto;
     margin-left: auto;
-    color: #EEF0F2;
+    color: white;
 }
 
 #about-txt{
     border: 5px #30343F solid;
     background-color: #D6D6FF;
-    color: #141414;
+    color: black;
     margin: 20px 30px 0px 30px;
     border-radius: 7px;
     width: 1400px;
     margin-right: auto;
     margin-left: auto;
     font-size: 25px;
+    font-family: 'ABeeZee', sans-serif;
     font-family: 'Noto Serif', serif;
     font-family: 'Signika Negative', sans-serif;
-    
+    font-family: 'Varela Round', sans-serif;
     
 }
 
@@ -90,7 +92,7 @@ html, body {
     width: 500px;
     background-color: #30343F;
     border-radius: 7px;
-    color: #EEF0F2;
+    color: white;
 }
 
 #onepiece-img{
@@ -108,7 +110,7 @@ html, body {
     width: 500px;
     background-color: #30343F;
     border-radius: 7px;
-    color: #EEF0F2;
+    color: white;
 }
 
 #games-img{
@@ -126,7 +128,7 @@ html, body {
     width: 500px;
     background-color: #30343F;
     border-radius: 7px;
-    color: #EEF0F2;
+    color: white;
 }
 
 #code-img{
@@ -139,3 +141,44 @@ html, body {
     display: flex;
     justify-content: space-around;
 }
+
+#other{
+    font-size: 30px;
+}
+
+.dropbtn {
+    background-color: #30343F;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 1903px;
+    text-align: left;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
